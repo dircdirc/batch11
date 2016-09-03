@@ -1,0 +1,20 @@
+	body{
+	background-color: lightblue;
+	margin: 0;
+	padding: 0;
+	}
+	.container{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: #2C2257;
+	text-decoration-color: red;
+	}
+	.card-tittle{
+	background-color: #BD8E51;
+	text-decoration-color:#680A42; 
+	}
+	.card-tittle{
+	background-color: #BD8E51;
+	text-decoration-color:#680A42; 
+	}

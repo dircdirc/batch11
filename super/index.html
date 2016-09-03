@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="mySuper">
+<head>
+	<title></title>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+     
+</head>
+<body ng-controller="superCtrl as articulo">
+ <div class="container">
+  <input ng-model="search.name">
+ </div>   
+  <div class="row">
+   <div class="col m2" ng-repeat="m in articulo.collection | filter:search | orderBy:'name'">
+   	 <div class="card">
+   	 	<div class="card-image">
+   	 		<img ng-src="{{m.img}}">
+   	 		<span class="card-tittle">{{m.name}}</span>
+   	 		<div class="card-content">
+        <h5>Precio</h5>
+   	 			<p>{{m.cost}}</p>
+   	 		</div>
+  
+   	 	</div>
+   	 </div>
+   </div>
+ </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+   <script src="app.js"></script>
+</body>
+</html>

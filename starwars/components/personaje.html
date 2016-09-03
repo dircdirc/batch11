@@ -1,0 +1,20 @@
+
+
+<div class="container">
+  <div class="row">
+	   <div  ng-repeat="char in $ctrl.characters">
+	   	 <div class="card">
+	   	 	<!-- <div class="card-image">
+	   	 		 <img ng-src="{{hero.thumbnail.path}}.{{hero.thumbnail.extension}}">	   	 		
+	   	 	</div> -->
+	   	 	<span class="card-tittle">{{char.name}}</span>
+	   	    <div class="card-action">
+   	 			<h5>Films</h5>
+   	 			<ul ng-repeat="p in char.films">
+   	 				<li>{{p}}</li>
+   	 			</ul>
+   	 		</div>
+	   	 </div>
+	   </div>
+ 	</div> 
+ </div>

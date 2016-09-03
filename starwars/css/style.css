@@ -1,0 +1,21 @@
+	body{
+	background-color: #15748B;
+	margin: 0;
+	padding: 0;
+	}
+	.container{
+	position: relative;
+	width: 100%;
+	/*text-align: center;*/
+	color: #BD8E51;
+	
+	}
+	.card{
+		color: #9AB6B9;
+	}
+	.card-tittle{
+	background-color: lightblue;
+	}
+	.card-action{
+	 /* background-color: lightblue;*/
+	}
